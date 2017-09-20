@@ -33,7 +33,7 @@ class HaikuHandler {
             var requiredForLine = currentLine == 1 ? 7 : 5;
             if (syllableCount + syllables > requiredForLine) {
                 // Not a haiku: words don't fit format
-                LogService.verbose("HaikuHandler", "Not a haiku wrong syllable count) in room " + event.getRoomId());
+                LogService.verbose("HaikuHandler", "Not a haiku (wrong syllable count) in room " + event.getRoomId());
                 return;
             }
 
