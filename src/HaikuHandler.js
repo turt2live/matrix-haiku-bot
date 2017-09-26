@@ -24,11 +24,13 @@ class HaikuHandler {
 
         var haikuLines = [];
         var syllableCount = 0;
+        var totalSyllableCount = 0;
         var currentLine = 0;
 
         var words = event.getContent().body.split(/\s+/g);
         for (var word of words) {
             var syllables = syllable(word.replace(/[^0-9a-zA-Z]]/g, ''));
+            totalSyllableCount += syllables;
 
             var requiredForLine = currentLine == 1 ? 7 : 5;
             if (syllableCount + syllables > requiredForLine) {
@@ -47,7 +49,7 @@ class HaikuHandler {
             }
         }
 
-        if (syllableCount !== 0) {
+        if (totalSyllableCount !== 17) {
             // Not a haiku: not enough syllables
             LogService.verbose("HaikuHandler", "Not a haiku (not enough syllables) in room " + event.getRoomId());
             return;
