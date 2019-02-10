@@ -1,5 +1,9 @@
 config/*
 !config/default.yaml
+lib/
+storage/
+
+trello.db
 
 /.idea
 
@@ -63,4 +67,3 @@ typings/
 
 # dotenv environment variables file
 .env
-

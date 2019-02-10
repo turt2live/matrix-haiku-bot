@@ -1,13 +1,3 @@
 homeserverUrl: "https://t2bot.io"
 accessToken: "YOUR_TOKEN_HERE"
-userId: "@haiku:t2bot.io"
-
-# Settings for controlling how logging works
-logging:
-  file: logs/haiku.log
-  console: true
-  consoleLevel: info
-  fileLevel: verbose
-  rotate:
-    size: 52428800 # bytes, default is 50mb
-    count: 5
+dataPath: "/data/storage"

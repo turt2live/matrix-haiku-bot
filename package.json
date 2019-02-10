@@ -13,16 +13,22 @@
   },
   "homepage": "https://github.com/turt2live/matrix-haiku-bot#readme",
   "dependencies": {
-    "babel-runtime": "^6.26.0",
-    "chalk": "^2.1.0",
-    "config": "^1.26.2",
-    "html-to-text": "^3.3.0",
-    "js-yaml": "^3.10.0",
-    "matrix-js-sdk": "^0.8.2",
-    "lodash": "^4.17.10",
-    "matrix-js-snippets": "^0.1.1",
-    "moment": "^2.22.2",
-    "syllable": "github:ibanner56/syllable",
-    "winston": "^2.3.1"
+    "config": "^3.0.1",
+    "js-yaml": "^3.12.1",
+    "lodash": "^4.17.11",
+    "matrix-bot-sdk": "^0.3.2",
+    "mkdirp": "^0.5.1",
+    "moment": "^2.24.0",
+    "striptags": "^3.1.1",
+    "syllable": "github:ibanner56/syllable"
+  },
+  "devDependencies": {
+    "tslint": "^5.12.1",
+    "typescript": "^3.3.3"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node lib/index.js",
+    "lint": "tslint --project ./tsconfig.json -t stylish"
   }
 }
