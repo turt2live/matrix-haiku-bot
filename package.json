@@ -20,7 +20,7 @@
     "mkdirp": "^0.5.1",
     "moment": "^2.24.0",
     "striptags": "^3.1.1",
-    "syllable": "github:ibanner56/syllable"
+    "syllable": "^4.0.0"
   },
   "devDependencies": {
     "tslint": "^5.12.1",
