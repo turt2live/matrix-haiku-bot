@@ -15,7 +15,7 @@
   "dependencies": {
     "config": "^3.0.1",
     "js-yaml": "^3.12.1",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.19",
     "matrix-bot-sdk": "^0.3.2",
     "mkdirp": "^0.5.1",
     "moment": "^2.24.0",
