@@ -18,7 +18,7 @@
     "lodash": "^4.17.11",
     "matrix-bot-sdk": "^0.3.2",
     "mkdirp": "^0.5.1",
-    "moment": "^2.24.0",
+    "moment": "^2.29.2",
     "striptags": "^3.1.1",
     "syllable": "^4.0.0"
   },
