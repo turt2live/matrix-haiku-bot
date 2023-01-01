@@ -13,7 +13,7 @@
   },
   "homepage": "https://github.com/turt2live/matrix-haiku-bot#readme",
   "dependencies": {
-    "config": "^3.0.1",
+    "config": "^3.3.8",
     "js-yaml": "^3.12.1",
     "lodash": "^4.17.21",
     "matrix-bot-sdk": "^0.3.2",
