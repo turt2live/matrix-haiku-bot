@@ -17,7 +17,7 @@
     "js-yaml": "^3.12.1",
     "lodash": "^4.17.21",
     "matrix-bot-sdk": "^0.3.2",
-    "mkdirp": "^0.5.1",
+    "mkdirp": "^0.5.6",
     "moment": "^2.29.2",
     "striptags": "^3.2.0",
     "syllable": "^4.0.0"
